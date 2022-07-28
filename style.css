@@ -3,3 +3,21 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.carousel-item .content-wrapper{
+    background-image: linear-gradient(rgba(0, 0, 0,.8),rgba(0, 0, 0,.8)),url("./images/cover/cover-1.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    filter: blur(15px);
+}
+.carousel-item:nth-of-type(2) .content-wrapper{
+    background-image: linear-gradient(rgba(0, 0, 0,.8),rgba(0, 0, 0,.8)),url("./images/cover/cover-2.jpg");
+}
+.carousel-item:nth-of-type(3) .content-wrapper{
+    background-image: linear-gradient(rgba(0, 0, 0,.8),rgba(0, 0, 0,.8)),url("./images/cover/cover-3.jpg");
+}
+@media screen and (max-width:600px) {
+    .content-wrapper{
+        min-height: auto !important;
+    }
+} 
