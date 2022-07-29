@@ -3,14 +3,6 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-/*  =============================== custom font color =============================== */
-.my-txt-clr{
-    color:rgba(182, 182, 182, 0.712);
-}
-/*  =============================== custom bg color  ===============================*/
-.my-light{
-    color: white !important;
-}
 /* =============================== banner background 1 ===============================*/
 .carousel-item .content-wrapper{
     background-image: linear-gradient(rgba(0, 0, 0,.9),rgba(0, 0, 0,.9)),url("./images/cover/cover-1.png");
