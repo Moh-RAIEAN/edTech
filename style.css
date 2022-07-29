@@ -28,3 +28,13 @@ body{
     object-fit: cover;
     object-position: center;
 }
+.my-shadow{
+    box-shadow: 3px 20px 25px rgba(3, 15, 184, 0.08);
+}
+.accordion-button:focus{
+    outline: 2px solid white !important;
+    box-shadow: none;
+}
+.accordion-button::after{
+    filter: grayscale(6) brightness(11.5);
+}
